@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    justify-content: center;
+    border: 1px, solid;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
