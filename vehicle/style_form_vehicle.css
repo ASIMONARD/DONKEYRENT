@@ -1,9 +1,12 @@
-div {
+.formDiv {
     display: flex;
     justify-content: center;
     border: 1px, solid;
-    margin-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
     border-radius: 10px;
+    margin-left: 50px;
+    
+}
+
+div {
+    margin: 15px;
 }

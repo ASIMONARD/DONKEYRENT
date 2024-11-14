@@ -8,70 +8,70 @@
 </head>
 <body>
     <h1>Ajout de vehicule</h1>
-    <div>
+    <div class="formDiv">
         <form action="" method="post">
-            <p>
+            <div>
                 <label for="registration">N° d'immatriculation</label>
                 <input type="text" name="registration" id="registration" require>
-            </p>
-            <p>
-                <label for="category">Tourisme</label>
-                <input type="checkbox" name="category" id="category" require>
-                <label for="category">Utilitair</label>
-                <input type="checkbox" name="category" id="category" require>
-            </p>
-            <p>
+            </div>
+            <div>
+                <label for="tourism">Tourisme</label>
+                <input type="radio" name="category" id="tourism" require>
+                <label for="utilitaire">Utilitaire</label>
+                <input type="radio" name="category" id="utiltaire" require>
+            </div>
+            <div>
                 <label for="sedan">Berline</label>
-                <input type="checkbox" name="sedan" id="sedan" require>
+                <input type="radio" name="type" id="sedan" require>
                 <label for="estateCare">Break</label>
-                <input type="checkbox" name="estateCare" id="estateCare" require>
+                <input type="radio" name="type" id="estateCare" require>
                 <label for="van">fourgon</label>
-                <input type="checkbox" name="van" id="van" require>
+                <input type="radio" name="type" id="van" require>
                 <label for="minivan">fourgonnette</label>
-                <input type="checkbox" name="minivan" id="minivan" require>
+                <input type="radio" name="type" id="minivan" require>
                 <label for="motocycle">moto</label>
-                <input type="checkbox" name="motocycle" id="motocycle" require>
-            </p>
-            <p>
+                <input type="radio" name="type" id="motocycle" require>
+            </div>
+            <div>
                 <label for="brand">Marque</label>
                 <input name="brand" id="brande"></input>
-            </p>
-            <p>
+            </div>
+            <div>
                 <label for="model">Modèle</label>
                 <input type="text" name="model" id="model" require>
                 <label for="modelYear">Année modèle</label>
-                <input type="num" name="modelYear" id="modelYear" require>
+                <input type="number" name="modelYear" id="modelYear" require>
                 <label for="km">Kilomètrage</label>
-                <input type="nember" name="km" id="km" require>km
-            </p>
-            <p>
+                <input type="number" name="km" id="km" require>km
+            </div>
+            <div>
                 <label for="doors">Nombre de portes</label>
                 <input type="text" name="doors" id="doors" require>
-            </p>
-            <p>
+            </div>
+            <div>
                 <label for="seats">Nombre de sièges</label>
                 <input type="text" name="seats" id="seats" require>
-            </p>
-            <p>
+            </div>
+            <div>
                 <label for="gearBox">Manuelle</label>
-                <input type="checkbox" name="gearBox" id="gearBox" require>
+                <input type="radio" name="gearBox" id="gearBox" require>
                 <label for="gearBox">Automatique</label>
-                <input type="checkbox" name="gearBox" id="gearBox" require>
-            </p>
-            <p>
+                <input type="radio" name="gearBox" id="gearBox" require>
+            </div>
+            <div>
                 <label for="energy">Essence</label>
-                <input type="checkbox" name="energy" id="energy" require>
+                <input type="radio" name="energy" id="energy" require>
                 <label for="energy">Diesel</label>
-                <input type="checkbox" name="energy" id="energy" require>
-            </p>
-            <p>
+                <input type="radio" name="energy" id="energy" require>
+            </div>
+            <div>
                 <label for="airConditioning">Climatisation</label>
-                <input type="checkbox" name="airConditioning" id="airConditioning">
-            </p>
-            <p>
+                <input type="radio" name="airConditioning" id="airConditioning">
+            </div>
+            <div>
                 <label for="price">Prix</label>
                 <input type="float" name="price" id="price" require>€
-            </p>
+            </div>
         </form>
     </div>
 </body>
