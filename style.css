@@ -1,0 +1,40 @@
+.logo {
+    width: 100px;
+    border-radius: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.voiture {
+    width: inherit;
+    height: inherit;
+}
+
+.cardAdult {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    background-image: url("images/AneCar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+button {
+    margin-bottom: 20px;
+}
