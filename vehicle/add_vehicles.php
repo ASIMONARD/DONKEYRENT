@@ -1,15 +1,22 @@
+<?php
+
+require '../connection.php';
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_form_vehicle.css">
+    <link rel="stylesheet" href="styles_vehicles.css">
     <title>Ajout de véhicule</title>
 </head>
 <body>
     <h1>Ajout de vehicule</h1>
     <div class="formDiv">
-        <form action="" method="post">
+        <form action="processing_add_vehicles.php" method="post">
             <div>
                 <label for="registration">N° d'immatriculation</label>
                 <input type="text" name="registration" id="registration" require>
@@ -34,7 +41,7 @@
             </div>
             <div>
                 <label for="brand">Marque</label>
-                <input name="brand" id="brande"></input>
+                <input name="brand" id="brand"></input>
             </div>
             <div>
                 <label for="model">Modèle</label>
@@ -65,12 +72,19 @@
                 <input type="radio" name="energy" id="energy" require>
             </div>
             <div>
-                <label for="airConditioning">Climatisation</label>
-                <input type="radio" name="airConditioning" id="airConditioning">
+                <label for="airCond">Climatisation</label>
+                <input type="radio" name="airCond" id="airCond">
             </div>
             <div>
                 <label for="price">Prix</label>
                 <input type="float" name="price" id="price" require>€
+            </div>
+            <div>
+                <label for="photo">Photo</label>
+                <input type="text" name="photo" id="photo" require>
+            </div>
+            <div>
+                <input type="submit" value="Enregistrer">
             </div>
         </form>
     </div>
