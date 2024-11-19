@@ -1,5 +1,8 @@
+<?php
+
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -12,16 +15,17 @@
     <nav>
         <a href=""><img class="logo" src="images/AneCar.png" alt=""></a>
         <div>
-            <a href="">Accueil</a>
-            <a href="">Toutes les voitures</a>
-            <a href="">Se connecter</a>
+            <a href="#">Accueil</a>
+            <a href="#">Mes reservations</a>
+            <a href="#">Toutes les voitures</a>
+            <a href="#">Se connecter</a>
         </div>
     </nav>
     <div class="cardAdult">
         <div class="card">
             <div class="voiture">
             </div>
-            <button>Réserver</button>
+            <button> <a href="#"></a>Réserver</button>
         </div>
     </div>
 </body>
