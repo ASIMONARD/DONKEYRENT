@@ -1,6 +1,6 @@
 <?php
 
-require '../connection.php';
+require_once '../connection.php';
 
 function prepare_input($data) {
     $data = htmlspecialchars($data);
@@ -48,6 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt->bindParam('photo', $photo);
     
         $stmt->execute();
+        echo 'Fiche enregistrée.';
             
     } else {
         echo 'Echec. Il y a de erreurs dans la saisie';
