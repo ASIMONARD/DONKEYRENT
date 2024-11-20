@@ -6,5 +6,5 @@ try {
     echo $e->getMessage(); die;
     exit ('Echec de connection');
 }
-echo 'Connecté';
+
 ?>
