@@ -1,6 +1,7 @@
 <?php
 
-require_once '../connection.php';
+require_once 'D:\DONKEY-SCHOOL\Projets\DONKEYRENT\Config\constant.php';
+require_once 'D:\DONKEY-SCHOOL\Projets\DONKEYRENT\Config\connection.php';
 
 function prepare_input($data) {
     $data = htmlspecialchars($data);

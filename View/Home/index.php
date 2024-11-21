@@ -1,6 +1,3 @@
-<?php
-
-?>
 <html lang="fr">
 
 <head>
@@ -16,16 +13,16 @@
         <div>
             <a href="#">Accueil</a>
             <a href="#">Mes reservations</a>
-            <a href="#">Toutes les voitures</a>
+            <a href="View/vehicles/listeVehicles.php">Toutes les voitures</a>
             <a href="#">Se connecter</a>
-            <a href="">Admin</a>
+            <a href="View/vehicles/add_vehicles.php">Admin</a>
         </div>
     </nav>
     <div class="cardAdult">
         <div class="card">
             <div class="voiture">
             </div>
-            <button> <a href="#"></a>Réserver</button>
+            <button><a href="View/vehicles/reservation.php">Réserver</a></button>
         </div>
     </div>
 </body>

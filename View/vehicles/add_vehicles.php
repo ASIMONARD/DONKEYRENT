@@ -9,7 +9,7 @@
 <body>
     <h1>Ajout de vehicule</h1>
     <div class="formDiv">
-        <form action="../Controle/processing_add_vehicles.php" method="post">
+        <form action="processing_add_vehicles.php" method="post">
             <div>
                 <label for="registration">N° d'immatriculation</label>
                 <input type="text" name="registration" id="registration" require>
