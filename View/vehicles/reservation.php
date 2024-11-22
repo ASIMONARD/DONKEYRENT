@@ -10,7 +10,7 @@
     <h1>Formulaire de réservation</h1>
     <br><br><br>
     <div class="formDiv">
-        <form action="" metuod="post"></form>
+        <form action="" methode="post"></form>
             <div>
                 <label for="departureTown">Ville de départ</label>
                 <input type="text" name="departureTown" id="departureTown">
