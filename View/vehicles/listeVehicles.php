@@ -15,16 +15,21 @@
 <body>
     <h1>Liste des véhicules</h1>
 
-    <div>
-    
-    <?php
-
-    foreach ($vehicles as $vehicle) {
-        echo "<div><img src='/View/Photos/". $vehicle->getPhoto() . "' alt='logo'></div>";
-        echo "<h2>" . $vehicle->getBrand() . " " . $vehicle->getModel() . "</h2>" . "<br>";   
-    }
-    ?>
-    </div>
+    <table>
+        <?php
+        foreach ($vehicles as $vehicle) {
+            ?>
+            <tr>
+                <td><?php   echo "<img src='/View/Photos/". $vehicle->getPhoto() . "' alt='logo'>"; ?></td>
+                <td><?php   echo "<h3>" . $vehicle->getBrand() . " " . $vehicle->getModel() . "<h3><br>"; 
+                            echo "<div>" . $vehicle->getmodelYear() . " " . $vehicle->getkm() . " " . $vehicle->getDoors()
+                            . " " . $vehicle->getSeats() . " " . $vehicle->getgeartBox() . " " . $vehicle->getEnergy()
+                            . " " . $vehicle->getCond();
+                
+                ?></td>
+            </tr>
+        <?php } ?>
+    </table>
     
 </body>
 </html>
