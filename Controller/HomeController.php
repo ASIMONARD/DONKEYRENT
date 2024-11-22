@@ -4,7 +4,7 @@ class HomeController
 {
     public function home()
     {
-        include 'D:\DONKEY-SCHOOL\Projets\DONKEYRENT\View\Home\index.php';
+        include DB_ROOT . '\View\Home\index.php';
     }
 }
 
