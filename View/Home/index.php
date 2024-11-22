@@ -22,7 +22,7 @@
         <div class="card">
             <div class="voiture">
             </div>
-            <button><a href="View/vehicles/reservation.php">Réserver</a></button>
+            <button><a href="booking/book">Réserver</a></button>
         </div>
     </div>
 </body>

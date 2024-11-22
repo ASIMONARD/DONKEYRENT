@@ -17,6 +17,12 @@ class VehiclesController
 
         include 'View\vehicles\listeVehicles.php';
     }
+
+    public function booking()
+    {
+        $vehicles = $this->vehiclesRepository->getAllVehicles();
+        include 'view/vehicles/reservation.php';
+    }
 }
 
 
