@@ -60,27 +60,27 @@ class Vehicle {
             $this->model = $model;
         }
 
-        public function getKm(): string {
+        public function getKm(): int {
             return $this->km;
         }
 
-        public function setKm(string $km) {
+        public function setKm(int $km) {
             $this->km = $km;
         }
 
-        public function getDoors(): string {
+        public function getDoors(): int {
             return $this->doors;
         }
 
-        public function setDoors(string $doors) {
+        public function setDoors(int $doors) {
             $this->doors = $doors;
         }
 
-        public function setSeats(): string {
+        public function getSeats(): int {
             return $this->seats;
         }
 
-        public function getSeats(string $seats) {
+        public function setSeats(int $seats) {
             $this->seats = $seats;
         }
 
@@ -96,8 +96,8 @@ class Vehicle {
             return $this->registration;
         }
 
-        public function setEnergy(string $registration) {
-            $this->registration = $registration;
+        public function setEnergy(string $energy) {
+            $this->energy = $energy;
         }
 
         public function getAirCond(): string {
