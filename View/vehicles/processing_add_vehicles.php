@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $price = $_POST['price'];
         $photo = $_POST['photo'];
 
-        $sql = "INSERT INTO vehicle (registration, category, type, brand, model, modelYear, km, doors, seats, gearBox, energy, airCond, price, photo) VALUES (:registration, :category, :type, :brand, :model, :modelYear, :km, :doors, :seats, :gearBox, :energy, :airCond, :price, :photo)";
+        $sql = "INSERT INTO vehicle (registration, category, type, brand, model, modelYear, km, doors, seats, gearBox, energy, airCond, price, photo, created_at, updated_at) VALUES (:registration, :category, :type, :brand, :model, :modelYear, :km, :doors, :seats, :gearBox, :energy, :airCond, :price, :photo, :created_at, :updated_at ";
         
         $stmt = $pdo->prepare($sql);
 
@@ -47,7 +47,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $stmt->bindParam('airCond', $airCond);
         $stmt->bindParam('price', $price);
         $stmt->bindParam('photo', $photo);
-    
+
+        $stmt->bindParam('created_at', new DateTime());
+        $stmt->bindParam('updated_at', new DateTime());
+
         $stmt->execute();
         echo 'Fiche enregistrée.';
             

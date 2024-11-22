@@ -2,6 +2,7 @@
 require 'config/constant.php';
 require 'config/connection.php';
 require 'controller/HomeController.php';
+require 'Controller/VehiclesController.php';
 require 'Router.php';
 
 $router = new Router();

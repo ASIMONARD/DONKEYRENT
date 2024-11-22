@@ -14,9 +14,17 @@
 </head>
 <body>
     <h1>Liste des véhicules</h1>
-    <table>
-        <th>Photos</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
-    </table>
+
+    <div>
+    
+    <?php
+
+    foreach ($vehicles as $vehicle) {
+        echo "<div><img src='/View/Photos/". $vehicle->getPhoto() . "' alt='logo'></div>";
+        echo "<h2>" . $vehicle->getBrand() . " " . $vehicle->getModel() . "</h2>" . "<br>";   
+    }
+    ?>
+    </div>
     
 </body>
 </html>

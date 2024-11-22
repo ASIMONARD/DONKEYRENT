@@ -6,7 +6,7 @@ class Router
     {
         $explodeUri = explode('/', $uri);
         $controller = $explodeUri[1] ? ucfirst($explodeUri[1]): 'Home';
-        $action = $explode[2] ?? 'list';
+        $action = $explodeUri[2] ?? 'list';
 
         if ($controller === 'Home')
         {
@@ -18,7 +18,7 @@ class Router
         return [
             'controller' => $controller,
             'action' => $action
-    ];
+        ];
     }
 
 }
