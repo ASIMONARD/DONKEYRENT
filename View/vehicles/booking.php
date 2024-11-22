@@ -27,7 +27,9 @@
                 <label for="dateTimeArrival">Date et heure d'arrivée</label>
                 <input type="datetime-local" name="dateTimeArrival" id="dateTimeArrival">
             </div>
-            <label for=""></label>
+            <div>
+            <input type="submit" name="choiceVehicle" id="choiceVehicle" value="Choix du véhicule">
+            </div>
         </div>
     </div>
 </html>

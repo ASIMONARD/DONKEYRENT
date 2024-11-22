@@ -21,7 +21,8 @@ class VehiclesController
     public function booking()
     {
         $vehicles = $this->vehiclesRepository->getAllVehicles();
-        include 'view/vehicles/reservation.php';
+        include 'view/vehicles/booking.php';
+        
     }
 }
 
