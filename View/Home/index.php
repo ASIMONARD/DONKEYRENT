@@ -13,7 +13,7 @@
         <div>
             <a href="#">Accueil</a>
             <a href="#">Mes reservations</a>
-            <a href="View/vehicles/listeVehicles.php">Toutes les voitures</a>
+            <a href="vehicles/show">Toutes les voitures</a>
             <a href="#">Se connecter</a>
             <a href="View/vehicles/add_vehicles.php">Admin</a>
         </div>

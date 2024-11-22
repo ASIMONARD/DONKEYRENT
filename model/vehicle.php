@@ -1,6 +1,7 @@
 <?php
 
 class Vehicle {
+        public int $id_vehicle;
         public string $registration; 
         public string $category;
         public string $type;
@@ -10,100 +11,144 @@ class Vehicle {
         public int $km;
         public int $doors;
         public int $seats;
-        public string $gearbox;
+        public string $gearBox;
         public string $energy;
         public string $airCond;
         public int $price;
         public string $photo;
+        public string $created_at;
+        public string $updated_at;
+
 
         public function getRegistration(): string {
             return $this->registration;
         }
+
         public function setRegistration(string $registration) {
             $this->registration = $registration;
-            return $this;
         }
+
         public function getCategory(): string {
             return $this->registration;
         }
+
         public function setCategory(string $category) {
             $this->category = $category;
-            return $this;
         }
+
         public function getType(): string {
             return $this->type;
         }
+
         public function setType(string $type) {
             $this->type = $type;
-            return $this;
         }
+
         public function getBrand(): string {
             return $this->brand;
         }
+
         public function setBrand(string $brand) {
             $this->brand = $brand;
-            return $this;
         }
+
         public function getModel(): string {
             return $this->model;
         }
+
         public function setModel(string $model) {
             $this->model = $model;
-            return $this;
         }
+
         public function getKm(): string {
             return $this->km;
         }
+
         public function setKm(string $km) {
             $this->km = $km;
-            return $this;
         }
+
         public function getDoors(): string {
             return $this->doors;
         }
+
         public function setDoors(string $doors) {
             $this->doors = $doors;
-            return $this;
         }
+
         public function setSeats(): string {
             return $this->seats;
         }
+
         public function getSeats(string $seats) {
-            $this->seats = $seats  ;
-            return $this;
+            $this->seats = $seats;
         }
+
         public function getGearbox(): string {
-            return $this->gearbox;
+            return $this->gearBox;
         }
-        public function setGearbox(string $gearbox) {
-            $this->gearbox = $gearbox;
-            return $this;
+
+        public function setGearbox(string $gearBox) {
+            $this->gearBox = $gearBox;
         }
+
         public function getEnergy(): string {
             return $this->registration;
         }
+
         public function setEnergy(string $registration) {
             $this->registration = $registration;
-            return $this;
         }
+
         public function getAirCond(): string {
             return $this->airCond;
         }
+
         public function setAirCond(string $airCond) {
             $this->airCond = $airCond;
-            return $this;
         }
+
         public function getPrice(): string {
             return $this->price;
         }
+
         public function setPrice(string $price) {
             $this->price = $price;
-            return $this;
         }
+
         public function getPhoto(): string {
             return $this->photo;
         }
                 
+        public function getId_vehicle()
+        {
+            return $this->id_vehicle;
+        }
+
+        public function setId_vehicle($id_vehicle)
+        {
+            $this->id_vehicle = $id_vehicle;
+        }
+
+        public function getCreated_at()
+        {
+            return $this->created_at;
+        }
+
+        public function setCreated_at($created_at)
+        {
+            $this->created_at = $created_at;
+        }
+
+        public function getUpdated_at()
+        {
+            return $this->updated_at;
+        }
+
+        public function setUpdated_at($updated_at)
+        {
+            $this->updated_at = $updated_at;
+        }
 }
 
 ?>

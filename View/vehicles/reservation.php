@@ -27,6 +27,7 @@
                 <label for="dateTimeArrival">Date et heure d'arrivée</label>
                 <input type="datetime-local" name="dateTimeArrival" id="dateTimeArrival">
             </div>
+            <label for=""></label>
         </div>
     </div>
 </html>

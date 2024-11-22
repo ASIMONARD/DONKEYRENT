@@ -16,25 +16,23 @@
             </div>
             <div>
                 <label for="tourism">Tourisme</label>
-                <input type="radio" name="category" id="tourism" require>
+                <input type="radio" name="category" id="tourism" value="Tourisme" require>
                 <label for="utilitaire">Utilitaire</label>
-                <input type="radio" name="category" id="utiltaire" require>
+                <input type="radio" name="category" id="utiltaire" value="Utilitaire" require>
             </div>
             <div>
                 <label for="sedan">Berline</label>
-                <input type="radio" name="type" id="sedan" require>
+                <input type="radio" name="type" id="sedan" value="Berline" require>
                 <label for="estateCare">Break</label>
-                <input type="radio" name="type" id="estateCare" require>
-                <label for="van">fourgon</label>
-                <input type="radio" name="type" id="van" require>
-                <label for="minivan">fourgonnette</label>
-                <input type="radio" name="type" id="minivan" require>
-                <label for="motocycle">moto</label>
-                <input type="radio" name="type" id="motocycle" require>
+                <input type="radio" name="type" id="estateCare" value="Break" require>
+                <label for="van">Fourgon</label>
+                <input type="radio" name="type" id="van" value="Fourgon" require>
+                <label for="motocycle">Moto</label>
+                <input type="radio" name="type" id="motocycle" value="Moto" require>
             </div>
             <div>
                 <label for="brand">Marque</label>
-                <input name="brand" id="brand"></input>
+                <input type="text" name="brand" id="brand"></input>
             </div>
             <div>
                 <label for="model">Modèle</label>
@@ -46,17 +44,17 @@
             </div>
             <div>
                 <label for="doors">Nombre de portes</label>
-                <input type="num" name="doors" id="doors" require>
+                <input type="number" name="doors" id="doors" require>
             </div>
             <div>
                 <label for="seats">Nombre de sièges</label>
-                <input type="num" name="seats" id="seats" require>
+                <input type="number" name="seats" id="seats" require>
             </div>
             <div>
                 <label for="gearBox">Manuelle</label>
-                <input type="radio" name="gearBox" id="gearBox" require>
+                <input type="radio" name="gearBox" id="gearBox" value="Manuelle" require>
                 <label for="gearBox">Automatique</label>            
-                <input type="radio" name="gearBox" id="gearBox" require>
+                <input type="radio" name="gearBox" id="gearBox" value="Automatique" require>
             </div>
             <div>
                 <label for="energy">Essence</label>
@@ -70,7 +68,7 @@
             </div>
             <div>
                 <label for="price">Prix</label>
-                <input type="num" name="price" id="price" require>€
+                <input type="number" name="price" id="price" require>€
             </div>
             <div>
                 <label for="photo">Photo</label>
