@@ -21,9 +21,10 @@
     </nav>
     <div class="cardAdult">
         <div class="card">
-        </div>
-        <div class="voiture">
-        </div>
+
+            <div class="voiture">
+            </div>
+            <button><a href="booking/book">Réserver</a></button>
    
     <button><a href="View/vehicles/reservation.php">Réserver</a></button>
 
