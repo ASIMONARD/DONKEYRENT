@@ -4,7 +4,7 @@ class BookingController
 {
     public function book()
     {
-        include 'View\vehicles\reservation.php';
+        include 'View\vehicles\booking.php';
     }
 }
 ?>
