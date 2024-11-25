@@ -1,6 +1,6 @@
 <?php
 
-require_once 'Repositories\VehiclesRepository.php';
+require_once 'Model/Repositories/VehiclesRepository.php';
 
 class VehiclesController
 {
