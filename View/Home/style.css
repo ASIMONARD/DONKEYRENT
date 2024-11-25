@@ -43,6 +43,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3); /* 0.5 pour 50% de transparence */
+    text-align: center;
 }
 
 
