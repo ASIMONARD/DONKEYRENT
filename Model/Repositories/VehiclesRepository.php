@@ -1,5 +1,5 @@
 <?php
-require_once "Model\Vehicle.php";
+require_once "Model/Entity/vehicle.php";
 
 class VehiclesRepository
 {
