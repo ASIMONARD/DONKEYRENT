@@ -34,7 +34,7 @@
                 <div>
                     <p>Ceci est une voiture de luxe</p>
                 </div>
-                <button><a href="/View/vehicles/reservation.php">Réserver</a></button>
+                <button><a href="/vehicles/booking/book">Réserver</a></button>
             </div>
         </div>
     </div>
